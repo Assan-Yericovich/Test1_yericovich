@@ -1,0 +1,35 @@
+html {
+  font-size: 25px; /*указываем размер шрифта */
+  font-family: 'Arimo', sans-serif;
+  font-family: 'Comfortaa', cursive;
+  background-color: #D6C1E0;
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #C16DE8;
+  padding: 0 20px 20px 20px;
+  border: 1px solid black;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+h1 {
+  margin: 0 auto;
+  padding: 20px 0;
+  color: #D6C1E0;
+  text-shadow: 3px 3px 1px black;
+  text-align: center;
+}
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-sparcing: 2px;
+}
+#zparagraff {    /* Здесь я обратился к элементу по его id*/
+  color: green;
+}
+.p-koshka:hover {   /* Элемент :hover дает элементу выделение при наведении на него мышью */
+  color: fuchsia;
+}
